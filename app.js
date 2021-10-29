@@ -1,5 +1,7 @@
 var nodemailer = require('nodemailer');
+
 function send(sender, password, receiver) {
+    const otp=Math.floor(Math.random()*1000000);
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
@@ -11,8 +13,8 @@ function send(sender, password, receiver) {
     var mailOptions = {
         from: `${sender}`,
         to: `${receiver}`,
-        subject: 'Sending Email using Node.js',
-        text: 'Thatkhbcjbadsk,bxckjadbscx easy!'
+        subject: 'OTP Verification',
+        text: ` Your otp is ${otp}.`
     };
 
     transporter.sendMail(mailOptions, function (error, info) {

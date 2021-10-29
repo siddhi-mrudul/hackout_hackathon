@@ -1,7 +1,7 @@
 var nodemailer = require('nodemailer');
 
 function send(sender, password, receiver) {
-    const otp=Math.floor(Math.random()*1000000);
+    const otp = Math.floor(Math.random()*1000000);
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {

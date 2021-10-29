@@ -1,3 +1,3 @@
-const sendMail = require("./app")
+const app = require("./app");
 
-sendMail.sendOtp("siddhibhanushali1234@gmail.com");
+app("mrudulkolambe02@gmail.com", "jcucyvvvsveqpnes", "siddhibhanushali1234@gmail.com");

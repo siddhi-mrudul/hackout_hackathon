@@ -1,7 +1,9 @@
 var nodemailer = require('nodemailer');
+// const otp = Math.floor(Math.random()*1000000);
+const otp=123456;
+
 
 function send(sender, password, receiver) {
-    const otp = Math.floor(Math.random()*1000000);
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
@@ -25,5 +27,14 @@ function send(sender, password, receiver) {
         }
     });
 }
+function verify(userOtp){
+    if(userOtp==otp){
+        console.log(otp);
+    }
+    else{
+        console.log("Not Matched");
+    }
 
-module.exports = send;
+}
+
+module.exports = {send,verify};

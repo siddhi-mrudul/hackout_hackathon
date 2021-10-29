@@ -1,21 +1,26 @@
-const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey("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");
-function sendOtp(receiver) {
-    const otp= Math.floor(Math.random()*1000000);
-    
-const msg = {
-    to: `${receiver}`,
-    from: 'mrudulkolambe02@gmail.com',
-    subject: 'OTP Verification',
-    text: `The Otp is ${otp}`,
-    html: `<strong>The Otp is ${otp} and easy to do anywhere, even with Node.js</strong>`,
-};
-sgMail.send(msg)
-    .then(function () {
-        console.log("Mail Sent");
-    })
-    .catch(function (error) {
-        console.log(error.message);
-    })
+var nodemailer = require('nodemailer');
+function send() {
+    var transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+            user: 'mrudulkolambe02@gmail.com',
+            pass: 'jcucyvvvsveqpnes'
+        }
+    });
+
+    var mailOptions = {
+        from: 'mrudulkolambe02@gmail.com',
+        to: 'mrudulkolambe@gmail.com',
+        subject: 'Sending Email using Node.js',
+        text: 'Thatkhbcjbadsk,bxckjadbscx easy!'
+    };
+
+    transporter.sendMail(mailOptions, function (error, info) {
+        if (error) {
+            console.log(error);
+        } else {
+            console.log('Email sent: ' + info.response);
+        }
+    });
 }
-module.exports = sendOtp;
+send();

@@ -1,6 +1,6 @@
 {
   "name": "otp-generator-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates, sends and validates otp on email",
   "main": "app.js",
   "dependencies": {
@@ -18,7 +18,10 @@
     "npm",
     "otp"
   ],
-  "contributors": ["Mrudul Kolambe", "Siddhi Bhanushali"],
+  "contributors": [
+    "Mrudul Kolambe",
+    "Siddhi Bhanushali"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/siddhi-mrudul/otp-generator-validator/issues"

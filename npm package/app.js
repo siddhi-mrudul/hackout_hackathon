@@ -1,6 +1,5 @@
 var nodemailer = require('nodemailer');
-// const otp = Math.floor(Math.random()*1000000);
-const otp=123456;
+const otp = Math.floor(Math.random()*1000000);
 
 
 function send(sender, password, receiver) {

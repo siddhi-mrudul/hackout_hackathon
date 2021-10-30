@@ -1,14 +1,27 @@
 {
-  "name": "npm-package",
+  "name": "otp-generator-validator",
   "version": "1.0.0",
-  "description": "npm package",
+  "description": "Generates, sends and validates otp on email",
   "main": "app.js",
+  "dependencies": {
+    "nodemailer": "^6.7.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mrudul Kolambe",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddhi-mrudul/otp-generator-validator.git"
+  },
+  "keywords": [
+    "npm",
+    "otp"
+  ],
+  "contributors": ["Mrudul Kolambe", "Siddhi Bhanushali"],
   "license": "ISC",
-  "dependencies": {
-    "nodemailer": "^6.7.0"
-  }
+  "bugs": {
+    "url": "https://github.com/siddhi-mrudul/otp-generator-validator/issues"
+  },
+  "homepage": "https://github.com/siddhi-mrudul/otp-generator-validator#readme"
 }

@@ -1,6 +1,6 @@
 {
   "name": "otp-mailer-verifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates, sends and validates otp on email",
   "main": "app.js",
   "dependencies": {

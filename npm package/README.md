@@ -9,11 +9,16 @@
 Inorder to send email , you will be requiring a password which 
 is easy to generate.
 Following are the steps to generate this password: 
+0. Your account should have 2 step authentication. 
 1. Go to your Google account.  (Use the account from which you have to send email).
 2. Go to security.
 3. Under security, there is an option called "app passwords".
 4. In app password, generate a password and copy it.
 ![app passwords](https://user-images.githubusercontent.com/69195262/139569845-7d8933c2-460b-44bf-942b-d0952d78a064.jpg)
+
+
+https://user-images.githubusercontent.com/69195262/139570236-4f6330f4-f275-4624-84e4-bb6127668c73.mp4
+
 
 
 ## Installation 

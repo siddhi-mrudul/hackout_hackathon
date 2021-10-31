@@ -16,7 +16,7 @@ Following are the steps to generate this password:
 4. In app password, generate a password and copy it.
 ![app passwords](https://user-images.githubusercontent.com/69195262/139569845-7d8933c2-460b-44bf-942b-d0952d78a064.jpg)
 
-
+## Here is a video on how to generate app password. You can refer to this.
 https://user-images.githubusercontent.com/69195262/139570236-4f6330f4-f275-4624-84e4-bb6127668c73.mp4
 
 

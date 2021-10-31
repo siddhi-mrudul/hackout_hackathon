@@ -56,7 +56,7 @@ otpMailer.verify(123456);
 ```
 
 ## Maintainers 
-[Siddhi Bhanushali](https://www.npmjs.com/~siddhi244) 
+[Siddhi Bhanushali](https://www.npmjs.com/~siddhi244) and 
 [Mrudul Kolambe](https://www.npmjs.com/~mrudulkolambe)
 
 

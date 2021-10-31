@@ -27,7 +27,7 @@ function send(sender, password, receiver) {
 }
 function verify(userOtp){
     if(userOtp==otp){
-        console.log(otp);
+        console.log("Matched");
     }
     else{
         console.log("Not Matched");

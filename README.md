@@ -36,7 +36,8 @@ With this package, you can easily generate 6 digit otp, send otp on mails and ve
 2. **Generating and sending a otp on email.**
 ```javascript 
 otpMailer.send(senderMail,password,receiverMail);
-// here password is the app password that is generated using Google account 
+// here password is the app password that is generated using Google account.
+//here all the parameters should be of string datatype.
 ```
 
 For eg: 
@@ -54,7 +55,9 @@ For eg:
 otpMailer.verify(123456);
 ```
 
-
+## Maintainers 
+[Siddhi Bhanushali](https://www.npmjs.com/~siddhi244) 
+[Mrudul Kolambe](https://www.npmjs.com/~mrudulkolambe)
 
 
 
